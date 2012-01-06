@@ -2,6 +2,8 @@ compdf takes in two arguments, 1st is the final pdf name e.g. 8th-Maths.pdf, and
 
 usage:
 compdf "Final pdf name" "coverpage.pdf hesc10?.pdf hesc11?.pdf hesc1an.pdf"
+e.g. compdf "9th-Science-Problems.pdf" "ieep1cc.pdf ieep1ps.pdf ieep10?.pdf ieep11?.pdf ieep1a?.pdf"
+
 
 jpg2pdf is required as compdf can only merge pdfs and some coverpages are given in jpg files. so you will need to convert them to pdf.
 
