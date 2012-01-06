@@ -1,0 +1,6 @@
+#!/bin/sh
+gs \
+ -sDEVICE=pdfwrite \
+ -o $2 \
+  /opt/local/share/ghostscript/9.04/lib/viewjpeg.ps \
+ -c \($1\) viewJPEG

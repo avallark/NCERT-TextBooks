@@ -1,0 +1,12 @@
+compdf takes in two arguments, 1st is the final pdf name e.g. 8th-Maths.pdf, and the second is the list of pdf files to be merged. The order that is given here is important.
+
+usage:
+compdf "Final pdf name" "coverpage.pdf hesc10?.pdf hesc11?.pdf hesc1an.pdf"
+
+jpg2pdf is required as compdf can only merge pdfs and some coverpages are given in jpg files. so you will need to convert them to pdf.
+
+usage:
+jpg2pdf JPEG-Filename.jpg PDF-Filename.pdf 
+
+
+Note, most probably the jpg2pdf will error out because of the location of the viewjpeg.ps file on your computer. It will be different on your computer so use locate or find to find this file and then replace the path to that file in the jpg2pdf script.
