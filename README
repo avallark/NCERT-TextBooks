@@ -1,4 +1,4 @@
-# NCERT Complete Textbook repository
+#  NCERT Complete Textbook repository
 
 This is an attempt to make available the NCERT textbooks without having to go through the tedious NCERT website.
 
